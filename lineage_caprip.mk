@@ -22,8 +22,8 @@ PRODUCT_MODEL := moto g(30)
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-BUILD_FINGERPRINT := "motorola/caprip_retail/caprip:12/S0RCS32.41-10-19-17/1cc0c-58db2:user/release-keys"
+BUILD_FINGERPRINT := "motorola/caprip_retail/caprip:12/S0RCS32.41-10-19-19/ef9ae-11df0:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=caprip_retail \
-    PRIVATE_BUILD_DESC="caprip_retail-user 12 S0RCS32.41-10-19-17 1cc0c-58db2 release-keys"
+    PRIVATE_BUILD_DESC="caprip_retail-user 12 S0RCS32.41-10-19-19 ef9ae-11df0 release-keys"
