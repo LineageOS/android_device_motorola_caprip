@@ -146,7 +146,6 @@ vendor/lib64/libmot_lux_standardization.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
-vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libswregistrationalgo.so
