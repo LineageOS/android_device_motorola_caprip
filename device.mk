@@ -22,6 +22,14 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.vendor_ramdisk \
+    init.oem.fingerprint.sh \
+    init.oem.fingerprint2.sh \
+    init.mmi.overlay.rc
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.bengal
@@ -58,20 +66,13 @@ PRODUCT_COPY_FILES += \
 $(foreach DEVICE_SKU, $(DEVICE_COMPASS_SKUS), \
     $(LOCAL_PATH)/permissions/unavail.android.hardware.sensor.compass.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(DEVICE_SKU)/unavail.android.hardware.sensor.compass.xml)
 
-# Rootdir
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.oem.fingerprint.sh \
-    init.oem.fingerprint2.sh \
-    init.mmi.overlay.rc
-
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 30
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Vendor ramdisk
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom_ramdisk:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/caprip/caprip-vendor.mk)
