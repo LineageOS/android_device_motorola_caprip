@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
     FrameworksResDeviceRetmea \
     FrameworksResDeviceXT2129-3 \
     LineagePlatformDevice \
+    SettingsResDevice \
     SystemUIResDevice \
     WifiResDevice \
     WifiResDeviceRetmea \
