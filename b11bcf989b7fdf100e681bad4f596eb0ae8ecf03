@@ -16,6 +16,24 @@
       "message": "This isn\u0027t actually used",
       "revId": "b11bcf989b7fdf100e681bad4f596eb0ae8ecf03",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7f01b5d_8a1f76c6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 27312
+      },
+      "writtenOn": "2025-10-17T14:52:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "20c30dfa_7d1e6d55",
+      "revId": "b11bcf989b7fdf100e681bad4f596eb0ae8ecf03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
