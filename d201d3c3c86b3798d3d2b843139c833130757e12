@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db11136f_7233a10c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-10-17T14:38:49Z",
+      "side": 1,
+      "message": "We already have the smooth display toggle in sm6225-common. We should either keep that or move to the separate toggles",
+      "revId": "d201d3c3c86b3798d3d2b843139c833130757e12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
