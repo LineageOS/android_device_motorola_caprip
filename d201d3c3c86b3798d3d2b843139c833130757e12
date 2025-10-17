@@ -16,6 +16,24 @@
       "message": "We already have the smooth display toggle in sm6225-common. We should either keep that or move to the separate toggles",
       "revId": "d201d3c3c86b3798d3d2b843139c833130757e12",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11c6f336_11c2e9a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27312
+      },
+      "writtenOn": "2025-10-17T14:54:48Z",
+      "side": 1,
+      "message": "At the request of users, they want to switch between screen frequencies, 60 or 90hz, I think it would be best to let the user set the frequency.",
+      "parentUuid": "db11136f_7233a10c",
+      "revId": "d201d3c3c86b3798d3d2b843139c833130757e12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
