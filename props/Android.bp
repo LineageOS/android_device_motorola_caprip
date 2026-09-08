@@ -7,12 +7,12 @@ prebuilt_etc {
     name: "carrier.retmea.prop",
     src: "carrier.retmea.prop",
     sub_dir: "props",
-    soc_specific: true,
+    product_specific: true,
 }
 
 prebuilt_etc {
     name: "hardware.sku.XT2129-3.prop",
     src: "hardware.sku.XT2129-3.prop",
     sub_dir: "props",
-    soc_specific: true,
+    product_specific: true,
 }
